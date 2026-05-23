@@ -26,10 +26,8 @@ class Solution:
             
         print(f"firstBlock: {firstBlock}, Last Block: {lastBlock}")
 
-        if (firstBlock + lastBlock) == ogNums:
-            return True
-        else:
-            return False
-        
-        # Now you can perform your check by combining them
-        # ...
+        # if (firstBlock + lastBlock) == ogNums:
+        #     return True
+        # else:
+        #     return False
+        return (firstBlock + lastBlock) == ogNums
