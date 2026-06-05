@@ -35,9 +35,9 @@ class Solution:
             # For 705, digits will be [5, 0, 7]
             # If you need them in original order [7, 0, 5], just reverse it:
         
-        for j in digits:
-            productOfDigits *= j
-            sumOfDigits += j 
+        for i in digits:
+            productOfDigits *= i
+            sumOfDigits += i 
         
         print(digits)
         return productOfDigits - sumOfDigits
