@@ -9,8 +9,8 @@ class Solution:
         
         if (maxUp == (num + t)):
             return (maxUp + t)
-        elif (maxDown == (num - t)):
-            return maxDown - 1
+        # elif (maxDown == (num - t)):
+        #     return maxDown - 1
             
         
         print(f"Num: {num}, MaxUp: {maxUp}, MaxDown: {maxDown}")
