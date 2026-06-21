@@ -22,3 +22,5 @@ class Solution:
                 high = mid - 1 # Search the left half
                 
         return ans 
+
+# need to redo this exersise
