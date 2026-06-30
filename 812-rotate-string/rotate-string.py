@@ -4,7 +4,7 @@ class Solution:
         for i in s:
             if s != goal:
                 s = s[1:] + s[0]
-                print(s)
+                # print(s)
             else:
                 return True
 
