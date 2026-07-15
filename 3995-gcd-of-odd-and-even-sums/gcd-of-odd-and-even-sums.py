@@ -14,3 +14,5 @@ class Solution:
             
         return math.gcd(sum(sumOdd), sum(sumEven))
         #I literally couldn't understand the question
+
+        #But then I understood it!!!
