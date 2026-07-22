@@ -6,4 +6,4 @@ class Solution:
             elif t.count(t[i]) != s.count(t[i]):
                 return t[i]
         
-        return t[i] 
+        # return t[i] 
