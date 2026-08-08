@@ -15,8 +15,8 @@ class Solution:
         
         sWordList.append(sWord)
         
-        print(patternList)
-        print(sWordList)
+        # print(patternList)
+        # print(sWordList)
 
 
         
